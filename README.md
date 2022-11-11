@@ -19,3 +19,5 @@ easily install your project onto their device.
 6. Add more content to the [static/index.md](static/index.md) file to explain your project.
     Make sure to leave the installation code tags in place so users get the install button.
 7. Push your changes to the repository and GitHub Actions will automatically build and deploy your project.
+
+Foobar
