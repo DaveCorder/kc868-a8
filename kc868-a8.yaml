@@ -47,7 +47,7 @@ pcf8574:
 # Individual outputs
 switch:
   - platform: gpio
-    name: "light1"
+    name: "outlet1"
     pin:
       pcf8574: pcf8574_hub_out_1
       number: 0
@@ -55,7 +55,7 @@ switch:
       inverted: true
 
   - platform: gpio
-    name: "light2"
+    name: "outlet2"
     pin:
       pcf8574: pcf8574_hub_out_1
       number: 1
@@ -63,7 +63,7 @@ switch:
       inverted: true
 
   - platform: gpio
-    name: "light3"
+    name: "outlet3"
     pin:
       pcf8574: pcf8574_hub_out_1
       number: 2
@@ -71,7 +71,7 @@ switch:
       inverted: true
 
   - platform: gpio
-    name: "light4"
+    name: "outlet4"
     pin:
       pcf8574: pcf8574_hub_out_1
       number: 3
@@ -79,7 +79,7 @@ switch:
       inverted: true
 
   - platform: gpio
-    name: "light5"
+    name: "outlet5"
     pin:
       pcf8574: pcf8574_hub_out_1
       number: 4
@@ -87,7 +87,7 @@ switch:
       inverted: true
 
   - platform: gpio
-    name: "light6"
+    name: "outlet6"
     pin:
       pcf8574: pcf8574_hub_out_1
       number: 5
@@ -95,7 +95,7 @@ switch:
       inverted: true
 
   - platform: gpio
-    name: "light7"
+    name: "outlet7"
     pin:
       pcf8574: pcf8574_hub_out_1
       number: 6
@@ -103,7 +103,7 @@ switch:
       inverted: true
 
   - platform: gpio
-    name: "light8"
+    name: "outlet8"
     pin:
       pcf8574: pcf8574_hub_out_1
       number: 7
